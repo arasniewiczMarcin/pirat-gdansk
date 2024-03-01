@@ -6,6 +6,8 @@ import Galeria from "./views/Gallery";
 import Sponsorzy from "./views/Sponsorzy";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import '@radix-ui/themes/styles.css';
+
 export default function App() {
   return (
     <div>

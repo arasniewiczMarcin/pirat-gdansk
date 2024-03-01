@@ -1,8 +1,8 @@
 const Home = () => {
   return (
     <div>
-      <h1>Home</h1>
-      <p>Welcome to the home page!</p>
+      <div className="text-white">Hello</div>
+      <img src="../assets/druzyna.jpg" alt="pirat"/>
     </div>
   );
 }
