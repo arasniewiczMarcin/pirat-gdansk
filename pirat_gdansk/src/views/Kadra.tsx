@@ -1,6 +1,6 @@
 const Kadra = () => {
   return (
-    <div>
+    <div className='bg-black'>
       <h1>test</h1>
       <p>Kadra</p>
     </div>
