@@ -4,6 +4,7 @@ import About from "./views/About";
 import Kadra from './views/Kadra';
 import Galeria from "./views/Galeria";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 export default function App() {
   return (
     <div>
@@ -15,6 +16,7 @@ export default function App() {
           <Route path="/kadra" element={<Kadra />} />
           <Route path="/galeria" element={<Galeria />} />
         </Routes>
+        <Footer />
       </Router>
     </div>  
   )
