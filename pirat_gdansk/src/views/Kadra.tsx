@@ -1,8 +1,25 @@
 const Kadra = () => {
   return (
-    <div>
-      <h1>test</h1>
-      <p>Kadra</p>
+    <div className='bg-black text-white text-xs'>
+      <table>
+            <thead>
+                <tr>
+                    <th>Imię i nazwisko</th>
+                    <th>Value</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Stat 1</td>
+                    <td>Value 1</td>
+                </tr>
+                <tr>
+                    <td>Stat 2</td>
+                    <td>Value 2</td>
+                </tr>
+                {/* Add more rows for additional stats */}
+            </tbody>
+        </table>
     </div>
   );
 }
