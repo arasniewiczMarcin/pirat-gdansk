@@ -5,7 +5,6 @@ import Kadra from './views/Kadra';
 import Galeria from "./views/Gallery";
 import Sponsorzy from "./views/Sponsorzy";
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
 export default function App() {
   return (
     <div>
@@ -18,7 +17,6 @@ export default function App() {
           <Route path="/galeria" element={<Galeria />} />
           <Route path="/sponsorzy" element={<Sponsorzy />} />
         </Routes>
-        <Footer />
       </Router>
     </div>  
   )

@@ -8,7 +8,7 @@ const tiktok_link = 'https://www.tiktok.com/@piratgdansk';
 
 const Footer = () => {
     return (
-        <footer className="bg-[#FFB923] text-center py-4 fixed bottom-0 w-full ">
+        <footer className="bg-[#FFB923] text-center py-4 bottom-0 w-full ">
             <div className="w-6/10 flex text-gray justify-center font-medium text-xs">
                 <div className="w-1/2">
                     <p>Kontakt:</p>
