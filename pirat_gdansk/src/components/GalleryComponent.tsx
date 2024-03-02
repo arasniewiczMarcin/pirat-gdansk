@@ -60,10 +60,7 @@ function Gallery() {
         imageLink:
           "src/assets/GalleryPhotos/piratgdansk 34.jpg",
       },
-      {
-        imageLink:
-          "src/assets/GalleryPhotos/piratgdansk 58.jpg",
-      },
+      
     
       
     ];
