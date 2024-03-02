@@ -1,8 +1,9 @@
+import Gallery from "../components/GalleryComponent";
+
 const Galeria = () => {
   return (
     <div>
-      <h1>Galeria</h1>
-      <p>elo</p>
+      <Gallery />
     </div>
   );
 }
