@@ -14,6 +14,7 @@ const Navbar = () => {
                     <Link to="/galeria" className="text-gray hover:bg-[#ff9923]">Galeria</Link>
                     <Link to="/sponsorzy" className="text-gray hover:bg-[#ff9923]">Sponsorzy</Link>
                 </div>
+                
         </nav>
     );
   }
