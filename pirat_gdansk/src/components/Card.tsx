@@ -9,11 +9,15 @@ import {
     image: string;
     title: string;
     description: string;
+    mobileView: boolean;
 }
    
-   function HorizontalCard({image, title, description}: HorizontalCardProps) {
+   function HorizontalCard({image, title, description, mobileView}: HorizontalCardProps) {
+
+
+
     return (
-      <Card className="w-full max-w-[40rem] max-h-40 flex-row" placeholder={"card"}>
+      <Card className="w-full max-w-[40rem] min-w-[18rem] max-h-40 flex-row" placeholder={"card"}>
         <CardHeader
           shadow={false}
           floated={false}
@@ -27,10 +31,10 @@ import {
           />
         </CardHeader>
         <CardBody placeholder={"Cardbody"} className="bg-black rounded-r-lg">
-          <Typography variant="h4" color="gray" className="mb-2" placeholder={"typography"}>
+          <Typography variant={mobileView ? "h5" : "h4"} color="gray" className="mb-2 mt-0" placeholder={"typography"}>
             {title}
           </Typography>
-          <Typography  color="gray" className="mb-8 font-size-24 text-xl" placeholder={"typography"}>
+          <Typography  color="gray" className="mb-8 font-size-24 text-base lg:text-xl" placeholder={"typography"}>
             {description}
           </Typography>
         </CardBody>
