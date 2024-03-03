@@ -1,13 +1,11 @@
-import Footer from "../components/Footer";
-
 const Sponsorzy = () => {
     return (
       <>
-        <div>
+        <div className="pt-12">
           <h1>test</h1>
           <p>Sponsorzy</p>
         </div>
-        <Footer />
+        
       </>
     );
   }

@@ -1,11 +1,10 @@
-import Footer from "../components/Footer";
 import Gallery from "../components/GalleryComponent";
 
 const Galeria = () => {
   return (
-    <div>
+    <div className="pt-12">
       <Gallery />
-      <Footer />
+      
     </div>
   );
 }

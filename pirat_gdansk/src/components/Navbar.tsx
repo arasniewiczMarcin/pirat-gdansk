@@ -1,18 +1,19 @@
-import { Link } from "react-router-dom";
 import logo from '../assets/logo_pirat.png';
 
 const Navbar = () => {
     return (
-        <nav className="bg-[#FFB923]">
+        <nav className="bg-[#FFB923] sticky top-0 z-10 " >
                 <div className="flex items-center justify-center space-x-16 ">
-                    <Link to="/o_nas" className="text-gray hover:bg-[#ff9923]">O nas</Link>
-                    <Link to="/kadra" className="text-gray hover:bg-[#ff9923]">Kadra</Link>
+                    <a href="#About" className="text-gray hover:bg-[#ff9923]">O nas</a>
+                    <a href="#Sponsors" className="text-gray hover:bg-[#ff9923]">Sponsorzy</a>
                     
-                    <Link to="/" className="text-gray hover:text-gray-300">
+                    <a href="#" className="text-gray hover:text-gray-300">
                         <img src={logo} alt='logo pirata' width={100}/>
-                    </Link>
-                    <Link to="/galeria" className="text-gray hover:bg-[#ff9923]">Galeria</Link>
-                    <Link to="/sponsorzy" className="text-gray hover:bg-[#ff9923]">Sponsorzy</Link>
+                    </a>
+                    <a href="#Team" className="text-gray hover:bg-[#ff9923]">Kadra</a>
+                    <a href="#Gallery" className="text-gray hover:bg-[#ff9923]">Galeria</a>
+                    
+                    
                 </div>
                 
         </nav>

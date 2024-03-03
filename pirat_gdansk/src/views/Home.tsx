@@ -1,13 +1,12 @@
 import CarouselDefault from "../components/Carousel.tsx";
-import Footer from "../components/Footer.tsx";
 
 const Home = () => {
   return (
     <>
-      <div>
+      <div className="mt-1">
         <CarouselDefault />
       </div>
-      <Footer />
+      
     </>
   );
 }

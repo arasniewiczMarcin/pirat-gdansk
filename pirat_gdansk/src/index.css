@@ -11,6 +11,7 @@
   color-scheme: light dark;
   color: #E6E6E6;
   background-color: #1A1A1A;
+  scroll-behavior: smooth;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

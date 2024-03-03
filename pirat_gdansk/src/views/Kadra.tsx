@@ -1,6 +1,6 @@
 const Kadra = () => {
   return (
-    <div className='bg-black text-white text-xs'>
+    <div className='bg-black text-white text-xs pt-12'>
       <table>
             <thead>
                 <tr>
