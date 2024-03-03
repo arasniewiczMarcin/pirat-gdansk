@@ -3,6 +3,7 @@ function Gallery() {
       {
         imageLink:
           "src/assets/GalleryPhotos/EmptyName 14.jpg",
+        
       },
       {
         imageLink:

@@ -12,12 +12,10 @@ import {
     mobileView: boolean;
 }
    
-   function HorizontalCard({image, title, description, mobileView}: HorizontalCardProps) {
-
-
+function HorizontalCard({image, title, description, mobileView}: HorizontalCardProps) {
 
     return (
-      <Card className="w-full max-w-[40rem] min-w-[18rem] max-h-40 flex-row" placeholder={"card"}>
+      <Card className="w-full min-w-[18rem] flex-row" placeholder={"card"}>
         <CardHeader
           shadow={false}
           floated={false}

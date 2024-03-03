@@ -1,26 +1,14 @@
+import MemberCard from "../components/memberCard";
+import players from "../assets/SquadTexts/Squad.tsx";
 const Kadra = () => {
   return (
-    <div className='bg-black text-white text-xs pt-12'>
-      <table>
-            <thead>
-                <tr>
-                    <th>Imię i nazwisko</th>
-                    <th>Value</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Stat 1</td>
-                    <td>Value 1</td>
-                </tr>
-                <tr>
-                    <td>Stat 2</td>
-                    <td>Value 2</td>
-                </tr>
-                {/* Add more rows for additional stats */}
-            </tbody>
-        </table>
-    </div>
+    <>
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 my-2 mx-4">
+        {players.map((player) => (
+          <MemberCard name={player.name} number={player.number} position={player.position}/>
+        ))}
+      </div>
+    </>
   );
 }
 export default Kadra;
