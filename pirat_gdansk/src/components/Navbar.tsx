@@ -5,12 +5,11 @@ import { useState } from 'react';
 
 const navLinks = (
     <>
-        <a href="#About" className="text-gray hover:bg-[#ff9923]">O nas</a>
-        <a href="#Sponsors" className="text-gray hover:bg-[#ff9923]">Sponsorzy</a>
-
         <a href="#" className="text-gray hover:text-gray-300">
             <img src={logo} alt='logo pirata' width={100}/>
         </a>
+        <a href="#About" className="text-gray hover:bg-[#ff9923]">O nas</a>
+        
         <a href="#Team" className="text-gray hover:bg-[#ff9923]">Kadra</a>
         <a href="#Gallery" className="text-gray hover:bg-[#ff9923]">Galeria</a>
     </>
